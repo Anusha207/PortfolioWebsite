@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(11, 16, 11);
+    color: aliceblue;
+}
+.navbar-left{
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.img-photo{
+    border-radius: 50%;
+}
+.logo-img{
+    border-radius: 50%;
+    border: none;
+   
+}
+.navbar-right
+{
+    padding-right: 30px;
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center;
+}
+.a-element{
+    padding: 10px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 84vh;
+  
+}
+.home-left{
+    width: 50vw;
+    color: aliceblue;
+    text-align: right;
+    padding-left: 200px;
+}
+.home-right{
+    width: 50vw;
+   padding-left: 100px;
+}
+p{
+    color: rgb(208, 213, 216);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{
+    color: rgb(205, 235, 135);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.services{
+    padding: 50px;
+    text-align: center;
+}
+.serv-h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    color: rgb(72, 181, 130);
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-style: italic;
+}
+.service-sub-cont{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+   
+}
+.services-card{
+    border:solid 2px  rgb(34, 205, 15) ;
+    margin: 50px;
+    padding: 10px;
+    width: 310px;
+}
+.contact{
+    text-align: center;
+}
+
+.social-icon-img{
+    height: 30px;
+    width: 30px;
+    padding: 4px;
+}
